@@ -16,7 +16,7 @@ form.addEventListener('submit', (event)=>{
         cvc.style.border = "blue 3px solid";
     }
 
-    else if(amount.value < 50 || cvc.value > 10000000){
+    else if(amount.value < 1 || cvc.value > 10000){
         amount.style.border = "red 2px solid";
         alert('The amount must be greater than 50 and smaller than 10 000 000');
         amount.style.border = "blue 3px solid";
